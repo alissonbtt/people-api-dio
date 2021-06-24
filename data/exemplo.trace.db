@@ -63,3 +63,6 @@ Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:461)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
 	... 59 more
+2021-06-23 20:08:42 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "PHONES_ID[*]"; expected "PREPARE"; SQL statement:
+PHONES_ID [42001-200]
